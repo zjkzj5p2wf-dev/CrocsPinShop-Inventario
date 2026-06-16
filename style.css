@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #111827;
+    color: white;
+}
+
+header {
+    background: linear-gradient(90deg, #dc2626, #2563eb);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin-top: 8px;
+}
+
+main {
+    padding: 15px;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #1f2937;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.card p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.agregar {
+    background-color: #1f2937;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.agregar h2 {
+    margin-top: 0;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #dc2626;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#listaProductos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.producto {
+    background-color: #1f2937;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.producto img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.producto h3 {
+    margin: 0 0 10px 0;
+}
+
+.producto p {
+    margin: 5px 0;
+}
