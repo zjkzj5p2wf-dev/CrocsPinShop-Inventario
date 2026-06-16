@@ -1,0 +1,9 @@
+{
+  "name": "CrocsPinShop Inventario",
+  "short_name": "CrocsPinShop",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#dc2626",
+  "icons": []
+}
