@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrocsPinShop Inventario</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+<header>
+    <h1>📦 CrocsPinShop Inventario</h1>
+    <p>Control de inventario y ventas</p>
+</header>
+
+<main>
+
+    <section class="dashboard">
+        <div class="card">
+            <h3>Total Productos</h3>
+            <p id="totalProductos">0</p>
+        </div>
+
+        <div class="card">
+            <h3>Stock Bajo</h3>
+            <p id="stockBajo">0</p>
+        </div>
+
+        <div class="card">
+            <h3>Ventas</h3>
+            <p id="ventasTotales">S/ 0</p>
+        </div>
+    </section>
+
+    <section class="agregar">
+        <h2>Agregar Pin</h2>
+
+        <input type="text" id="nombre" placeholder="Nombre del pin">
+
+        <input type="number" id="precioCompra" placeholder="Precio compra">
+
+        <input type="number" id="precioVenta" placeholder="Precio venta">
+
+        <input type="number" id="cantidad" placeholder="Cantidad">
+
+        <input type="file" id="foto" accept="image/*">
+
+        <button onclick="agregarProducto()">
+            Guardar Producto
+        </button>
+    </section>
+
+    <section>
+        <h2>Inventario</h2>
+
+        <div id="listaProductos"></div>
+    </section>
+
+</main>
+
+<script src="app.js"></script>
+
+</body>
+</html>
